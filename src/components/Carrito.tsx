@@ -76,10 +76,10 @@ const reducer = (state: State, action: Action): State => {
 
 const Carrito = () => {
   const articulos: Producto[] = [
-    { id: 1, nombre: "manzana", precio: "10", cantidad: 0 },
-    { id: 2, nombre: "pera", precio: "2", cantidad: 0 },
-    { id: 3, nombre: "aguacate", precio: "52", cantidad: 0 },
-    { id: 4, nombre: "platano", precio: "8", cantidad: 0 },
+    { id: 1, nombre: "Manzana", precio: "10", cantidad: 0 },
+    { id: 2, nombre: "Pera", precio: "2", cantidad: 0 },
+    { id: 3, nombre: "Aguacate", precio: "52", cantidad: 0 },
+    { id: 4, nombre: "Platano", precio: "8", cantidad: 0 },
   ];
 
   const [state, dispatch] = useReducer(reducer, []);
